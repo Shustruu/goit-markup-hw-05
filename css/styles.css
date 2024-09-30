@@ -464,15 +464,15 @@ footer {
 .sub-email{
     border: 1px solid #fff;
     border-radius: 4px;
-    max-width: 100%;
+    width: 264px;
     height: 40px;
     background-color: transparent;
     padding-left: 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.17;
+    line-height: 2;
     letter-spacing: 0.04em;
-    color: #2E2F42;
+    color: #ffffff;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -488,7 +488,6 @@ footer {
     background-color: #4D5AE5;
     min-width: 165px;
     margin-left: 24px;
-    display: block;
     height: 40px;
     border-radius: 4px;
     border: none;
@@ -501,13 +500,14 @@ footer {
 .sub-svg-btn{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 16px;
 }
 .sub-email::placeholder{
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color #ffffff;
 }
 /* MODALLLLLLLLLLLLLL */
 .backdrop.is-open{
@@ -597,6 +597,9 @@ footer {
 } 
 .review-form-field-wrapper{
     margin-bottom: 8px;
+
+}
+.review-form-field-wrapper-comment{
     margin-bottom: 16px;
 }
 .review-form-input-wrapper{
