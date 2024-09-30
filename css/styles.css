@@ -477,6 +477,7 @@ footer {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .sub-btn{
+    display: flex;
     font-weight: 500;
     align-items: center;
     justify-content: center;
