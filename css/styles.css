@@ -449,6 +449,7 @@ footer {
 .sub{
     margin-left: auto;
 }
+
 .sub-text{
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -456,10 +457,9 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.sub-btn-form{
+.sub-form{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
 }
 .sub-email{
     border: 1px solid #fff;
@@ -596,6 +596,7 @@ footer {
 } 
 .review-form-field-wrapper{
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .review-form-input-wrapper{
     position: relative;
