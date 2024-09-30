@@ -551,6 +551,7 @@ footer {
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     background-color: #404BBF;
+    fill: #ffffff;
     border: none;
 }
 .modal-close-icon{
@@ -594,7 +595,7 @@ footer {
     outline: transparent;
 } 
 .review-form-field-wrapper{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .review-form-input-wrapper{
     position: relative;
